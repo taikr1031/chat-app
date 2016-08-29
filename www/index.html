@@ -3,8 +3,10 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="initial-scale=1, maximum-scale=1, user-scalable=no, width=device-width">
-    <title>微信风格聊天</title>
+    <title></title>
 
+    <link href="css/ionic.app.css" rel="stylesheet">
+    <link href="css/custom.style.css" rel="stylesheet">
     <link href="lib/ionic/css/ionic.css" rel="stylesheet">
     <link href="css/style.css" rel="stylesheet">
 
@@ -17,13 +19,27 @@
 
     <!-- cordova script (this will be a 404 during development) -->
     <script src="cordova.js"></script>
+    <script src="lib/ionic/js/jquery/jquery.min.js"></script>
 
     <!-- your app's js -->
     <script src="js/app.js"></script>
     <script src="js/controllers.js"></script>
     <script src="js/services.js"></script>
+    <script src="js/controller/controllers.js"></script>
+    <script src="js/controller/chatController.js"></script>
+    <script src="js/controller/messageController.js"></script>
+    <script src="js/controller/settingController.js"></script>
+    <script src="js/route/routes.js"></script>
+    <script src="js/service/services.js"></script>
+    <script src="js/service/settingService.js"></script>
+    <script src="js/service/dateService.js"></script>
+    <script src="js/service/chatService.js"></script>
+    <script src="js/service/messageService.js"></script>
+    <script src="js/directive/directives.js"></script>
+    <script src="js/other/elastic.js"></script>
   </head>
-  <body ng-app="starter">
+
+  <body ng-app="chat">
     <!--
       The nav bar that will be updated as we navigate between views.
     -->
